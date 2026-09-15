@@ -1,0 +1,27 @@
+{
+  "name": "CareerSetu AI",
+  "short_name": "CareerSetu",
+  "description": "PM Internship Scheme — AI-powered internship matching for India's first-generation candidates",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F9FB",
+  "theme_color": "#0B1D51",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "government"],
+  "lang": "en-IN",
+  "dir": "ltr"
+}

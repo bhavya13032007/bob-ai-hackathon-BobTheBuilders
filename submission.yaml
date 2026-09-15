@@ -1,0 +1,76 @@
+# =============================================================================
+# HACKATHON SUBMISSION METADATA
+# =============================================================================
+# Instructions:
+#   - Fill in ALL required fields (marked with # REQUIRED)
+#   - Optional fields can be left as empty strings ""
+#   - Do NOT rename this file — the evaluation pipeline reads it by name
+#   - Use double quotes around all string values
+# =============================================================================
+
+team:
+  name: "BobTheBuilders"               # REQUIRED — e.g., "Orion Squad"
+  track: "AI"                          # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  lead:
+    name: "Brijesh Patel"              # REQUIRED — e.g., "Alice Chen"
+    email: "25dce076@charusat.edu.in"  # REQUIRED — e.g., "alice.chen@ibm.com"
+  members:
+    - name: "Femi Dungrani"            # REQUIRED — Team member 1
+      email: "25dce024@charusat.edu.in"
+    - name: "Bhavya Patel"             # Add more members by copying the two lines above
+      email: "25dce075@charusat.edu.in"
+    - name: "Divya Paradiya"
+      email: "25dce066@charusat.edu.in"
+
+submission:
+  title: "CareerSetu AI — PM Internship Recommender"   # REQUIRED — Project display name
+
+  problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
+    Internship platforms rely on rigid keyword search, causing qualified
+    candidates to be filtered out over minor wording differences and leaving
+    recruiters to sift through mismatched applications with no explainable
+    feedback for candidates who are rejected.
+
+  solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
+    CareerSetu AI is a hybrid AI matching engine that combines NLP, fuzzy
+    string matching, geospatial proximity analysis, and an LLM to generate
+    personalized, explainable, and diverse internship recommendations for
+    candidates while surfacing only high-probability matches to employers.
+
+  key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
+    - "Hybrid skill matching using TF-IDF semantic similarity + RapidFuzz fuzzy matching"
+    - "Geospatial proximity scoring via Haversine distance, aware of remote/hybrid/on-site work modes"
+    - "Gamification boost from verified candidate certificates matched against required skills"
+    - "LLM-generated explainable recommendations (IBM Watsonx) with deterministic template fallback"
+    - "MMR-based diversity re-ranking to avoid duplicate company/sector recommendations"
+
+  tech_stack:
+    languages: ["Python", "JavaScript"]
+    frameworks: ["FastAPI", "React", "Vite", "TailwindCSS"]
+    ibm_technologies: ["watsonx.ai (Granite-13B-instruct-v2)"]
+    databases: ["SQLite", "PostgreSQL (Supabase)"]
+    other: ["scikit-learn", "RapidFuzz", "Geopy", "Nominatim (OpenStreetMap)", "Pytest"]
+
+  what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
+    The explainable AI layer — every match comes with a human-readable
+    "why," and the system gracefully falls back to deterministic templates
+    within a strict 3-second timeout so the user experience never breaks
+    even if the LLM call fails.
+
+  known_limitations: >                 # Optional but recommended — be honest about gaps
+    Geocoding relies on a free Nominatim endpoint, which can be rate-limited
+    at scale. The recruiter-side analytics dashboard and resume-parsing
+    auto-fill are planned but not yet implemented.
+
+# =============================================================================
+# ARTIFACT LOCATIONS
+# These paths are relative to the repo root. Only change if you moved files.
+# =============================================================================
+artifacts:
+  source_code: "src/"
+  setup_guide: "docs/setup-guide.md"
+  architecture_doc: "docs/architecture.md"
+  demo_video: "demo/demo-video-link.txt"   # URL to hosted video (YouTube, Loom, Box)
+  live_demo: "demo/live-demo-url.txt"      # URL to deployed demo (optional)
+  screenshots: "demo/screenshots/"
+  presentation: "presentation/"
