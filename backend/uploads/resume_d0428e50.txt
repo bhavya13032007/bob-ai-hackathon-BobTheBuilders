@@ -1,0 +1,4 @@
+John Smith
+john@example.com
+B.Sc in Computer Science
+Skills: Python, Machine Learning.

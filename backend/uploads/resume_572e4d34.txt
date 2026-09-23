@@ -1,0 +1,4 @@
+John Doe
+john@example.com
+Graduate in CS
+Skills: Python, SQL.

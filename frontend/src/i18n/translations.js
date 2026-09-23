@@ -1,0 +1,191 @@
+/**
+ * Loopin — i18n Translation Dictionary
+ * ~40 core strings for the candidate journey in EN and HI.
+ * 
+ * Usage: import { translations } from './translations';
+ *        const t = (key) => translations[lang][key] || translations['en'][key] || key;
+ */
+
+export const translations = {
+  en: {
+    // Landing Page
+    'landing.badge': 'PM Internship Scheme Platform',
+    'landing.hero_title': 'Find Your Right',
+    'landing.hero_highlight': 'PM Internship Match',
+    'landing.hero_desc': 'Loopin uses hybrid AI to match your qualifications, skills, and home district with top PM Internship Scheme opportunities with zero paperwork complexity.',
+    'landing.cta_match': 'Find My Match',
+    'landing.cta_listen': 'Listen Guide (Sunao)',
+    'landing.trust_free': '100% Free Application',
+    'landing.trust_verified': 'Verified Top Companies',
+    'landing.trust_stipend': 'Direct Stipend ₹20-35k/mo',
+    'landing.how_title': '3 Easy Steps to Your Internship',
+    'landing.how_desc': 'Our AI recommendation engine does the heavy lifting so you don\'t have to fill long paperwork.',
+    'landing.step1_title': 'Upload Resume or Select Level',
+    'landing.step2_title': 'AI Proximity & Skill Match',
+    'landing.step3_title': '1-Click Apply & Track',
+
+    // Wizard
+    'wizard.step_of': 'Step {step} of {total}',
+    'wizard.title_edu': "Let's build your profile",
+    'wizard.desc_edu': 'Upload your resume to auto-fill, or select your education manually.',
+    'wizard.upload_title': 'Upload Resume / CV',
+    'wizard.upload_hint': 'PDF, DOCX up to 5MB',
+    'wizard.or_select': 'OR Select Education',
+    'wizard.title_skills': 'Confirm Your Skills',
+    'wizard.desc_skills': 'Select the skills you want to highlight for matching.',
+    'wizard.title_sector': 'Select Sectors',
+    'wizard.desc_sector': 'What industries are you interested in?',
+    'wizard.title_location': 'Where do you want to work?',
+    'wizard.desc_location': 'Set your location preferences for better matches.',
+    'wizard.remote_label': 'Open to Remote Work',
+    'wizard.remote_desc': 'Include work-from-home opportunities',
+    'wizard.btn_continue': 'Continue',
+    'wizard.btn_back': 'Back',
+    'wizard.btn_match': 'See My Matches',
+    'wizard.processing': 'Processing...',
+
+    // Results
+    'results.badge': 'AI-Matched Results',
+    'results.title': 'Your Top PM Internship Matches',
+    'results.refine': 'Refine My Answers',
+    'results.why': 'Why this internship?',
+    'results.factors': 'Match Factors:',
+    'results.skill_fit': 'Skill Fit',
+    'results.location': 'Location',
+    'results.distance': 'Distance',
+    'results.coaching': 'Skill-Up Tip',
+    'results.courses': 'Free Courses to Boost Match:',
+    'results.see_more': 'See {count} More Options',
+    'results.view_details': 'View Details',
+
+    // Common
+    'common.apply': 'Apply Now',
+    'common.save': 'Save',
+    'common.cancel': 'Cancel',
+    'common.loading': 'Loading...',
+    'common.offline_title': 'You are offline',
+    'common.offline_msg': 'Showing cached data. Some features may be unavailable.',
+
+    // Settings
+    'settings.title': 'Settings',
+    'settings.subtitle': 'Manage your language and notification preferences',
+    'settings.language': 'Language / भाषा',
+    'settings.notifications': 'Notification Channels',
+    'settings.save_prefs': 'Save Preferences',
+    'settings.category_matches': 'New Matches',
+    'settings.category_matches_desc': 'When AI finds internships matching your profile',
+    'settings.category_updates': 'Application Updates',
+    'settings.category_updates_desc': 'Status changes on your applications',
+    'settings.category_cert': 'Certificate Verification',
+    'settings.category_cert_desc': 'When employers verify or review your credentials',
+
+    // Dashboard
+    'dashboard.welcome': 'Welcome back, {name}!',
+    'dashboard.cand_id': 'Candidate ID: {id}',
+    'dashboard.edit_profile': 'Edit Profile & Skills',
+    'dashboard.my_apps': 'My Applications',
+    'dashboard.profile_ready': 'Profile Readiness',
+    'dashboard.ai_score': 'AI Matching Score',
+    'dashboard.boost': 'Boost',
+    'dashboard.high_prob': 'High Probability Match',
+    'dashboard.verif_edu': 'Verified Education (Degree/Diploma)',
+    'dashboard.loc_set': 'Location Coordinates Set',
+    'dashboard.aadhaar_bank': 'Aadhaar-Linked Bank Account',
+    'dashboard.cert_portfolio': 'Credentials Portfolio',
+    'dashboard.cert_upload': 'Upload Certificate',
+    'dashboard.recommended': 'Recommended Matches',
+    'dashboard.saved': 'Saved Jobs',
+  },
+
+  hi: {
+    // Landing Page
+    'landing.badge': 'पीएम इंटर्नशिप योजना प्लेटफॉर्म',
+    'landing.hero_title': 'अपना सही खोजें',
+    'landing.hero_highlight': 'पीएम इंटर्नशिप मैच',
+    'landing.hero_desc': 'Loopin हाइब्रिड AI से आपकी योग्यता, कौशल और जिले के अनुसार सर्वश्रेष्ठ PM इंटर्नशिप योजना के अवसर खोजता है — बिना किसी कागज़ी झंझट के।',
+    'landing.cta_match': 'मेरा मैच खोजें',
+    'landing.cta_listen': 'गाइड सुनें (Audio)',
+    'landing.trust_free': '100% मुफ्त आवेदन',
+    'landing.trust_verified': 'सत्यापित शीर्ष कंपनियाँ',
+    'landing.trust_stipend': 'सीधा स्टाइपेंड ₹20-35k/माह',
+    'landing.how_title': 'इंटर्नशिप के लिए 3 आसान कदम',
+    'landing.how_desc': 'हमारा AI इंजन आपके लिए सब करता है — लंबे फॉर्म भरने की ज़रूरत नहीं।',
+    'landing.step1_title': 'रिज़्यूमे अपलोड करें या स्तर चुनें',
+    'landing.step2_title': 'AI दूरी और कौशल मिलान',
+    'landing.step3_title': '1-क्लिक आवेदन और ट्रैकिंग',
+
+    // Wizard
+    'wizard.step_of': 'चरण {step} / {total}',
+    'wizard.title_edu': 'आइए आपकी प्रोफ़ाइल बनाते हैं',
+    'wizard.desc_edu': 'रिज़्यूमे अपलोड करें या शिक्षा स्तर चुनें।',
+    'wizard.upload_title': 'रिज़्यूमे / CV अपलोड करें',
+    'wizard.upload_hint': 'PDF, DOCX 5MB तक',
+    'wizard.or_select': 'या शिक्षा चुनें',
+    'wizard.title_skills': 'अपने कौशल की पुष्टि करें',
+    'wizard.desc_skills': 'मिलान के लिए कौशल चुनें।',
+    'wizard.title_sector': 'क्षेत्र चुनें',
+    'wizard.desc_sector': 'कौन से उद्योग में रुचि है?',
+    'wizard.title_location': 'कहाँ काम करना चाहते हैं?',
+    'wizard.desc_location': 'बेहतर मिलान के लिए स्थान चुनें।',
+    'wizard.remote_label': 'रिमोट वर्क स्वीकार',
+    'wizard.remote_desc': 'वर्क-फ्रॉम-होम शामिल करें',
+    'wizard.btn_continue': 'आगे बढ़ें',
+    'wizard.btn_back': 'पीछे',
+    'wizard.btn_match': 'मेरे मैच देखें',
+    'wizard.processing': 'प्रोसेसिंग...',
+
+    // Results
+    'results.badge': 'AI-मिलान परिणाम',
+    'results.title': 'आपके शीर्ष PM इंटर्नशिप मैच',
+    'results.refine': 'उत्तर बदलें',
+    'results.why': 'यह इंटर्नशिप क्यों?',
+    'results.factors': 'मिलान कारक:',
+    'results.skill_fit': 'कौशल मिलान',
+    'results.location': 'स्थान',
+    'results.distance': 'दूरी',
+    'results.coaching': 'कौशल सुझाव',
+    'results.courses': 'मैच बढ़ाने के लिए मुफ्त कोर्स:',
+    'results.see_more': '{count} और विकल्प देखें',
+    'results.view_details': 'विवरण देखें',
+
+    // Common
+    'common.apply': 'अभी आवेदन करें',
+    'common.save': 'सहेजें',
+    'common.cancel': 'रद्द करें',
+    'common.loading': 'लोड हो रहा है...',
+    'common.offline_title': 'आप ऑफ़लाइन हैं',
+    'common.offline_msg': 'कैश्ड डेटा दिखा रहे हैं। कुछ सुविधाएँ उपलब्ध नहीं हो सकतीं।',
+
+    // Settings
+    'settings.title': 'सेटिंग्स',
+    'settings.subtitle': 'अपनी भाषा और सूचना प्राथमिकताएं प्रबंधित करें',
+    'settings.language': 'भाषा / Language',
+    'settings.notifications': 'सूचना चैनल',
+    'settings.save_prefs': 'प्राथमिकताएँ सहेजें',
+    'settings.category_matches': 'नए मैच',
+    'settings.category_matches_desc': 'जब AI आपकी प्रोफ़ाइल से मेल खाने वाली इंटर्नशिप खोजता है',
+    'settings.category_updates': 'एप्लिकेशन अपडेट',
+    'settings.category_updates_desc': 'आपके आवेदनों की स्थिति में बदलाव',
+    'settings.category_cert': 'प्रमाणपत्र सत्यापन',
+    'settings.category_cert_desc': 'जब नियोक्ता आपके प्रमाणपत्रों को सत्यापित या समीक्षा करते हैं',
+
+    // Dashboard
+    'dashboard.welcome': 'वापसी पर स्वागत है, {name}!',
+    'dashboard.cand_id': 'उम्मीदवार आईडी: {id}',
+    'dashboard.edit_profile': 'प्रोफ़ाइल और कौशल संपादित करें',
+    'dashboard.my_apps': 'मेरे आवेदन',
+    'dashboard.profile_ready': 'प्रोफ़ाइल तैयारी',
+    'dashboard.ai_score': 'AI मिलान स्कोर',
+    'dashboard.boost': 'बढ़ावा',
+    'dashboard.high_prob': 'उच्च संभावना वाला मैच',
+    'dashboard.verif_edu': 'सत्यापित शिक्षा (डिग्री/डिप्लोमा)',
+    'dashboard.loc_set': 'स्थान निर्देशांक सेट',
+    'dashboard.aadhaar_bank': 'आधार-लिंक्ड बैंक खाता',
+    'dashboard.cert_portfolio': 'प्रमाणपत्र पोर्टफोलियो',
+    'dashboard.cert_upload': 'प्रमाणपत्र अपलोड करें',
+    'dashboard.recommended': 'अनुशंसित मैच',
+    'dashboard.saved': 'सहेजे गए जॉब्स',
+  },
+};
+
+export default translations;
